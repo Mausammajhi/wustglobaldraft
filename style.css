@@ -1,193 +1,274 @@
+p,
+.lists {
+  font-size: 14px;
+}
 
-    p, .lists{
-    font-size: 14px;
+a {
+  text-decoration: none;
 }
-a{
-    text-decoration: none;
+
+.banner-image {
+  width: 100%;
+  height: 350px;
+  background-image: url('https://www.wust.edu/uploads/sub_category/174541417667362024-12-18.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
-.banner-image{
-    width: 100%;
-    height: 350px;
-    background-image: url('https://www.wust.edu/uploads/sub_category/174541417667362024-12-18.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-.left{
-    width: 100%;
-    height: auto;
-    margin: 60px 0px;
-    /* box-shadow: 0px 0px 10px rgb(233, 233, 233); */
-    padding: 16px 26px 16px 0 ;
-    text-align: justify;
-    position: sticky;
-    top: 10px;
-}
-.right{
-    margin: 60px 0;
-}
-.menu-items{
-    list-style: none;
-}
-.menu-items li{
-    border-bottom: 1px solid #d3d3d3;
-    margin-bottom: 12px;
-    padding: 6px 0;
-}
-.main-head{
-    color: #2b4ba0;
-    font-weight: 600;
-}
-.sub-head{
-    color: #2b4ba0;
-    font-weight: 600;
-    font-size: 18px;
-}
-.button{
-    font-size: 14px;
-    background-color: #2b4ba0;
-    border: none;
-    color: #fff;
-    padding: 4px 10px;
-    border-radius: 4px;
-}.program{
-    width: 100%;
-    height: 180px;
-    background-image: linear-gradient(rgba(43, 75, 150, 0.8)),url('https://www.wust.edu/uploads/sub_category/174541417667362024-12-18.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-.program a{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    color: #fff;
-    text-decoration: none;
-    font-size: 26px;
-    font-weight: 600;
-}
-.contact-head{
-    font-size: 18px;
-    color: #2b4ba0;
-    font-weight: 600;
-}
-.contact-card{
-    width: 100%;
-    height: 140px;
-    box-shadow: 0px 0px 6px 3px rgb(237, 237, 237);
-    text-align: center;
-    border-radius: 2px;
-    padding: 15px;
-    margin: 10px 0;
-}
-.accordion-button:focus {
-    box-shadow: none !important;
-    border-color: transparent !important;
-    outline: none !important;
-  }
-  /* Sidebar Base Styles */
+
 .left {
-    padding: 20px;
-    border-radius: 6px;
+  width: 100%;
+  height: auto;
+  margin: 60px 0px;
+  /* box-shadow: 0px 0px 10px rgb(233, 233, 233); */
+  padding: 16px 26px 16px 0;
+  text-align: justify;
+  position: sticky;
+  top: 10px;
+}
+
+.right {
+  margin: 60px 0;
+}
+
+.menu-items {
+  list-style: none;
+}
+
+.menu-items li {
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 12px;
+  padding: 6px 0;
+}
+
+.main-head {
+  color: #2b4ba0;
+  font-weight: 600;
+}
+
+.sub-head {
+  color: #2b4ba0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button {
+  font-size: 14px;
+  background-color: #2b4ba0;
+  border: none;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.program {
+  width: 100%;
+  height: 180px;
+  background-image: linear-gradient(rgba(43, 75, 150, 0.8)), url('https://www.wust.edu/uploads/sub_category/174541417667362024-12-18.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.program a {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.contact-head {
+  font-size: 18px;
+  color: #2b4ba0;
+  font-weight: 600;
+}
+
+.contact-card {
+  width: 100%;
+  height: 140px;
+  box-shadow: 0px 0px 6px 3px rgb(237, 237, 237);
+  text-align: center;
+  border-radius: 2px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+/* Sidebar Base Styles */
+.left {
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-items li {
+  margin-bottom: 10px;
+}
+
+.menu-items a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  /* padding: 10px 15px; */
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.menu-items a:hover {
+  color: #2b4ba0;
+}
+
+.menu-items a.active {
+  color: #2b4ba0;
+}
+
+/* Hamburger Button */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 32px;
+  padding: 5px 10px;
+}
+
+/* Responsive Sidebar */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
   }
-  
+
   .menu-items {
-    list-style: none;
-    padding: 0;
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu-items.show {
+    display: flex;
+  }
+
+  .left {
+    width: 100%;
     margin: 0;
   }
-  
-  .menu-items li {
-    margin-bottom: 10px;
+
+  .right {
+    margin: 0;
   }
-  
-  .menu-items a {
-    display: block;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    /* padding: 10px 15px; */
-    font-size: 14px;
-    transition: all 0.3s ease;
-  }
-  
-  .menu-items a:hover {
-   color: #2b4ba0;
-  }
-  
-  .menu-items a.active {
-    color: #2b4ba0;
-  }
-  
-  /* Hamburger Button */
-  .hamburger {
+
+  .left-contact-info {
     display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 32px;
-    padding: 5px 10px;
   }
-  
-  /* Responsive Sidebar */
-  @media (max-width: 768px) {
-    .hamburger {
-      display: block;
-    }
-  
-    .menu-items {
-      display: none;
-      flex-direction: column;
-    }
-  
-    .menu-items.show {
-      display: flex;
-    }
-  
-    .left {
-      width: 100%;
-      margin: 0;
-    }
-    .right{
-        margin: 0;
-    }
-    .left-contact-info{
-        display: none;
-    }
-  }
-  
-  /* Remove blue border on accordion active */
-  .accordion-button:focus {
-    box-shadow: none !important;
-    border-color: transparent !important;
-    outline: none !important;
-  }
-  
-  .accordion-button:not(.collapsed) {
-    box-shadow: none !important;
-    border: none !important;
-  }
-  .left-contact-info{
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  .info-head{
-    font-size: 18px;
-    color: #2b4ba0;
-    margin-top: 80px;
-    font-weight: 600;
-  }
-  .info-desc{
-    margin-top: -10px;
-  }
-  .program-info a{
-    font-size: 16px;
-  }
-.info-desc span{
-    display: block;
 }
-  
+
+/* Remove blue border on accordion active */
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.left-contact-info {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.info-head {
+  font-size: 18px;
+  color: #2b4ba0;
+  margin-top: 80px;
+  font-weight: 600;
+}
+
+.info-desc {
+  margin-top: -10px;
+}
+
+.program-info a {
+  font-size: 16px;
+}
+
+.info-desc span {
+  display: block;
+}
+footer{
+  background-image: url('https://img.freepik.com/premium-photo/subtle-gradient-blend-background-design_558873-60997.jpg?semt=ais_hybrid&w=740&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px;
+}
+.foot-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.foot-nav li {
+  padding: 0px 10px;
+  border-right: 1px solid #2b4ba0;
+}
+
+.foot-nav li a {
+  color: #2b4ba0 !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.socials {
+  margin-top: 14px;
+}
+
+.fa-brands {
+  font-size: 14px;
+  padding: 8px;
+  color: #fff;
+  background-color: #2b4ba0;
+  margin: 4px;
+  border-radius: 50%;
+}
+
+.footer-menu-head {
+  color: #2b4ba0 !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.footer-menu {
+  margin: 52px 0px;
+}
+
+.footer-menu-list {
+  list-style: none;
+  margin-left: -32px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+.footer-menu-list li a{
+  color: #2b4ba0 !important;
+}
